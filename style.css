@@ -30,6 +30,23 @@ div h1 {
     color: rgb(14, 85, 151);
 }
 
+.linha-fundo-titulo {
+    display: inline;
+    position: relative;
+}
+
+.linha-fundo-titulo::after{
+    content:"";
+    display: block;
+    height: 15px;
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    background: #2b2b2b96;
+    opacity: .3;
+  }
+
 .item-projetos {
     min-width: 500px;
     width: 45%;
