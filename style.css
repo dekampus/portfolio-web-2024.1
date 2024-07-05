@@ -9,7 +9,7 @@ body {
     color: #2b2b2b;
 }
 
-header, .sobre{
+header, .sobre, .projetos {
     padding: 30px 25px 0 25px;
 }
 
@@ -21,7 +21,54 @@ header p {
     font-style: italic;
 }
 
+div h1 {
+    font-size: 25px;
+}
+
 .sobre a {
     text-decoration: none;
     color: rgb(14, 85, 151);
+}
+
+.item-projetos {
+    min-width: 500px;
+    width: 45%;
+}
+
+.item-projetos > p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+
+.item-projetos > p > a {
+    text-decoration: none;
+    padding: 2px 5px;
+    background-color: #2dba4e;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+.projeto-titulo {
+    font-size: 20px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.projeto-descricao {
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.projeto-descricao p {
+    text-indent: 25px;
+    margin-top: 5px;
+}
+
+.projeto-imagem {
+    width: 500px;
+    margin-left: 10px;
+    border: 1px solid #2b2b2b27;
 }
