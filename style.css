@@ -25,11 +25,6 @@ div h1 {
     font-size: 25px;
 }
 
-.sobre a {
-    text-decoration: none;
-    color: rgb(14, 85, 151);
-}
-
 .linha-fundo-titulo {
     display: inline;
     position: relative;
@@ -45,6 +40,52 @@ div h1 {
     left: 0;
     background: #2b2b2b96;
     opacity: .3;
+}
+
+/* Estilos da seção "Sobre" */
+
+.sobre p {
+    text-indent: 25px;
+}
+
+.sobre-container {
+    margin-top: 10px;
+}
+
+.sobre-container div {
+    display: inline-block;
+    width: 45%;
+}
+
+.links-redes-sociais {
+    float: right;
+}
+
+/*  Estilos de links */
+
+.ufopa-link, .e-mail-link {
+    text-decoration: none;
+    color: rgb(14, 85, 151);
+}
+
+.github-link {
+    text-decoration: none;
+    padding: 2px 5px;
+    background-color: #2dba4e;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+.instagram-link {
+    text-decoration: none;
+    padding: 2px 5px;
+    background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #fff;
 }
 
 .projetos-container {
@@ -69,15 +110,7 @@ div h1 {
     text-indent: 25px;
 }
 
-.projeto-item > p > a {
-    text-decoration: none;
-    padding: 2px 5px;
-    background-color: #2dba4e;
-    border-radius: 5px;
-    font-family: sans-serif;
-    font-weight: bold;
-    color: #fff;
-}
+
 
 .projeto-titulo {
     font-size: 20px;
