@@ -46,6 +46,7 @@ div h1 {
 
 .sobre p {
     text-indent: 25px;
+    margin-bottom: 5px;
 }
 
 .sobre-container {
@@ -63,7 +64,7 @@ div h1 {
 
 /*  Estilos de links */
 
-.ufopa-link, .e-mail-link {
+.ufopa-link{
     text-decoration: none;
     color: rgb(14, 85, 151);
 }
@@ -76,6 +77,11 @@ div h1 {
     font-family: sans-serif;
     font-weight: bold;
     color: #fff;
+    text-indent: 0px;
+}
+
+.fa-github {
+    margin-left: 10px;
 }
 
 .instagram-link {
@@ -86,6 +92,26 @@ div h1 {
     font-family: sans-serif;
     font-weight: bold;
     color: #fff;
+    text-indent: 0px;
+}
+
+.fa-instagram {
+    margin-left: 10px;
+}
+
+.e-mail-link {
+    text-decoration: none;
+    padding: 2px 5px;
+    background-color: rgba(74, 165, 207, 0.87);
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.fa-envelope {
+    text-indent: 0px;
+    margin-left: 10px;
 }
 
 .projetos-container {
