@@ -6,3 +6,4 @@ Um portfólio com design simples para apresentar os projetos feitos por mim.
 - HTML
 - CSS
 - Fonte "Libre Baskerville" do [Google Fonts](https://fonts.google.com/)
+- Ícones do [Font Awesome](https://fontawesome.com/)
