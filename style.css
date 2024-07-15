@@ -10,7 +10,7 @@ body {
 }
 
 header, .sobre, .projetos {
-    padding: 30px 25px 0 25px;
+    padding: 30px 25px 40px 25px;
 }
 
 header h1 {
@@ -44,6 +44,10 @@ div h1 {
 
 /* Estilos da seção "Sobre" */
 
+.sobre {
+    background-color: #f1f1f1;
+}
+
 .sobre p {
     text-indent: 25px;
     margin-bottom: 5px;
@@ -55,11 +59,26 @@ div h1 {
 
 .sobre-container div {
     display: inline-block;
+}
+
+.sobre-descricao {
     width: 45%;
 }
 
 .links-redes-sociais {
     float: right;
+    width: 45%;
+}
+
+.topicos-links-redes-sociais p {
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.icones-links-redes-sociais a{
+    display: block;
+    margin: 5px;
+    width: fit-content;
 }
 
 /*  Estilos de links */
